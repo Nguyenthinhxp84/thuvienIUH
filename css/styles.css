@@ -11497,7 +11497,7 @@ header.masthead .bg-circle-4 {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
-.iframe {
-    background: #0d6efd;
-    --bs-bg-opacity: 1;
+iframe {
+    border: 0;
+    width: -webkit-fill-available;
 }
