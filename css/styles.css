@@ -210,7 +210,7 @@ strong {
 }
 
 small, .small {
-  font-size: 0.875em;
+  font-size: 1.2em;
 }
 
 mark, .mark {
@@ -11500,4 +11500,35 @@ header.masthead .bg-circle-4 {
 iframe {
     border: 0;
     width: -webkit-fill-available;
+}
+.socail-footer {
+  position: absolute; 
+  right: 0; 
+  margin: 5px 10px 0 0;
+}
+.socail-footer li {
+  float: left; 
+  margin: 0 5px 0 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.fab {
+    font-size: calc(1.175rem + 2.5vw) !important;
+}
+
+.fa-facebook {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+    margin-top: -18px;
+}
+.fa-linkedin {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+    margin-top: -18px;
+}
+.fa-twitter {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+    margin-top: -18px;
 }
