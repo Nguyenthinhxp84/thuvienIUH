@@ -11492,7 +11492,7 @@ header.masthead .bg-circle-4 {
 }
 
 .bi {
-    font-size: calc(1.175rem + 2.5vw) !important;
+    font-size: calc(2.1rem + 2.5vw) !important;
 }
 .bi-server {
     --bs-text-opacity: 1;
