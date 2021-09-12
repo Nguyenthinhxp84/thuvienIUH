@@ -7299,7 +7299,7 @@ textarea.form-control-lg {
 }
 
 .mt-0 {
-  margin-top: 10px !important;
+  margin-top: 0 !important;
 }
 
 .mt-1 {
@@ -7941,7 +7941,7 @@ textarea.form-control-lg {
   float: left;
   width: 100%;
   padding: 0;
-  margin-top: -120px;
+  margin-top: -135px;
 }
 
 .rounded-pill {
