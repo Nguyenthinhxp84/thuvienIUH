@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Creative v7.0.4 (https://startbootstrap.com/theme/creative)
@@ -3941,6 +3940,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+
 }
 
 .nav-link {
@@ -3949,6 +3949,7 @@ textarea.form-control-lg {
   color: #f4623a;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -7592,8 +7593,8 @@ textarea.form-control-lg {
   font-family: var(--bs-font-monospace) !important;
 }
 
-.bi {
-    font-size: calc(0.175rem + 2.5vw) !important;
+.fs-1 {
+  font-size: calc(1.375rem + 1.5vw) !important;
 }
 
 .fs-2 {
@@ -7711,7 +7712,7 @@ textarea.form-control-lg {
 }
 
 /* rtl:end:remove */
-.bi-server {
+.text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
@@ -11230,7 +11231,7 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1200px) {
-  .bi{
+  .fs-1 {
     font-size: 2.5rem !important;
   }
 
@@ -11453,14 +11454,14 @@ header.masthead .bg-circle-4 {
   }
 }
 
-#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
+#caccoso .container-fluid, #caccoso .container-sm, #caccoso .container-md, #caccoso .container-lg, #caccoso .container-xl, #caccoso .container-xxl {
   max-width: 1920px;
 }
-#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
+#caccoso .container-fluid .caccoso-box, #caccoso .container-sm .caccoso-box, #caccoso .container-md .caccoso-box, #caccoso .container-lg .caccoso-box, #caccoso .container-xl .caccoso-box, #caccoso .container-xxl .caccoso-box {
   position: relative;
   display: block;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+#caccoso .container-fluid .caccoso-box .caccoso-box-caption, #caccoso .container-sm .caccoso-box .caccoso-box-caption, #caccoso .container-md .caccoso-box .caccoso-box-caption, #caccoso .container-lg .caccoso-box .caccoso-box-caption, #caccoso .container-xl .caccoso-box .caccoso-box-caption, #caccoso .container-xxl .caccoso-box .caccoso-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11476,16 +11477,27 @@ header.masthead .bg-circle-4 {
   transition: opacity 0.25s ease;
   text-align: center;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
+#caccoso .container-fluid .caccoso-box .caccoso-box-caption .project-category, #caccoso .container-sm .caccoso-box .caccoso-box-caption .project-category, #caccoso .container-md .caccoso-box .caccoso-box-caption .project-category, #caccoso .container-lg .caccoso-box .caccoso-box-caption .project-category, #caccoso .container-xl .caccoso-box .caccoso-box-caption .project-category, #caccoso .container-xxl .caccoso-box .caccoso-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+#caccoso .container-fluid .caccoso-box .caccoso-box-caption .project-name, #caccoso .container-sm .caccoso-box .caccoso-box-caption .project-name, #caccoso .container-md .caccoso-box .caccoso-box-caption .project-name, #caccoso .container-lg .caccoso-box .caccoso-box-caption .project-name, #caccoso .container-xl .caccoso-box .caccoso-box-caption .project-name, #caccoso .container-xxl .caccoso-box .caccoso-box-caption .project-name {
   font-size: 1.2rem;
 }
-#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
+#caccoso .container-fluid .caccoso-box:hover .caccoso-box-caption, #caccoso .container-sm .caccoso-box:hover .caccoso-box-caption, #caccoso .container-md .caccoso-box:hover .caccoso-box-caption, #caccoso .container-lg .caccoso-box:hover .caccoso-box-caption, #caccoso .container-xl .caccoso-box:hover .caccoso-box-caption, #caccoso .container-xxl .caccoso-box:hover .caccoso-box-caption {
   opacity: 1;
 }
 
+.bi {
+    font-size: calc(0.175rem + 2.5vw) !important;
+}
+.bi-server {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+.iframe {
+    background: #0d6efd;
+    --bs-bg-opacity: 1;
+}
