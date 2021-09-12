@@ -11529,7 +11529,6 @@ iframe {
     margin-top: -18px;
 }
 .fa-twitter {
-    
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
     margin-top: -18px;
 }
@@ -11609,7 +11608,36 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+.button_scroll2top {
+    display:none;
+    width:180px;
+    height:70px;
+    padding-top:20px;
+    padding-left:10px;
+    position:fixed;
+    z-index:999;
+    right:-45px;
+    top:45%;
+    background:#fb3;
+    border-radius:999px;
+    cursor:pointer;
+    opacity:0.6;
+    color:#fff;
+    font-size:2.0em;
+  }
+
+  .button_scroll2top:hover
+  {
+    opacity:1.0;
+  }
+
+.fa-arrow-circle-up {
+    font-family: "Font Awesome 5 Free";
+    font-size: calc(1.175rem + 3.5vw) !important;
 }
 
-
-Resources
+.fa, .fas {
+    font-weight: 900;
+    
+    font-size: calc(1.175rem + 3.5vw) !important;
+}
