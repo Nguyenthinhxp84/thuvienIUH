@@ -7300,6 +7300,8 @@ textarea.form-control-lg {
 
 .mt-0 {
   margin-top: 0 !important;
+  color: red;
+  font-weight: bold;
 }
 
 .mt-1 {
