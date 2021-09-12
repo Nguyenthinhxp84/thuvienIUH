@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Creative v7.0.4 (https://startbootstrap.com/theme/creative)
@@ -603,6 +604,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  margin-top: 21px;
 }
 
 .img-fluid1 {
@@ -7933,9 +7935,11 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 1% !important;
+  border-radius: 5% !important;
   float: left;
-  width: 80%;
+  width: 100%;
+  padding: 0;
+  margin-top: -120px;
 }
 
 .rounded-pill {
