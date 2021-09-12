@@ -11506,7 +11506,7 @@ iframe {
   right: 0; 
   margin: 5px 10px 0 0;
 }
-.socail-footer li {
+.socail-footer ul li {
   float: left; 
   margin: 0 5px 0 0;
   text-decoration: none;
@@ -11518,17 +11518,17 @@ iframe {
 }
 
 .fa-facebook {
-    --bs-text-opacity: 1;
+   
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
     margin-top: -18px;
 }
 .fa-linkedin {
-    --bs-text-opacity: 1;
+    
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
     margin-top: -18px;
 }
 .fa-twitter {
-    --bs-text-opacity: 1;
+    
     color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
     margin-top: -18px;
 }
